@@ -38,8 +38,7 @@ with Pages; use Pages;
 with Sitemaps;
 with Server; use Server;
 
-procedure Jona   
-is
+procedure Yass is
    Version: constant String := "3.0";
    --## rule off GLOBAL_REFERENCES
    Work_Directory: Unbounded_String := Null_Unbounded_String;
@@ -519,4 +518,4 @@ exception
            (Item =>
               "Oops, something bad happen and program crashed. Please, remember what you done before crash and report this problem at https://www.laeran.pl/repositories/yass and attach (if possible) file 'error.log' (should be in this same directory).");
       end Save_Exception_Info_Block;
-end Jona;
+end Yass;
